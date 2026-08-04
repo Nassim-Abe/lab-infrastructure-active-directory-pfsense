@@ -217,15 +217,7 @@ in **Status → DHCP Leases → Add Static Mapping**.
 
 ---
 
-## 🚀 Next Steps
 
-- [ ] Full AD DS / DNS / DHCP installation on DC01
-- [ ] Create an OU and a baseline GPO
-- [ ] Join client workstations to the domain
-- [ ] Deploy a corporate wallpaper GPO
-- [ ] Validate GPO application (`< 90s`)
-- [ ] Configure **Password Replication Policy (PRP)** on RODC01
-- [ ] Pre-populate RODC01 with branch user credentials
 
 ---
 
@@ -274,18 +266,7 @@ in **Status → DHCP Leases → Add Static Mapping**.
         └── bug_report.md
 ```
 
----
 
-## 🧑‍💻 Author
-
-Documentation produced as part of a hands-on SME-style Active Directory lab (VMware Workstation + pfSense + Windows Server 2022).
-RODC01 deployment is documented for branch-office scenarios.
-
----
-
-## 📜 License
-
-This project is released under the **MIT License** — feel free to reuse, adapt, and contribute.
 
 <p align="center">
   <sub>🛡️ Built with ❤️ — keep your DNS pointed at your DC.</sub>
