@@ -46,8 +46,8 @@ Build a fully functional identity infrastructure for a simulated SME:
 |---|---|
 | Hypervisor | VMware Workstation Pro |
 | Firewall / Router | pfSense CE |
-| Domain Controller | Windows Server 2022 |
-| Read-Only DC | Windows Server 2022 (RODC) |
+| Domain Controller | Windows Server 2019 |
+| Read-Only DC | Windows Server 2019 (RODC) |
 | ISO Images | Microsoft Volume Licensing Portal |
 | Documentation | Markdown + Mermaid + Pandoc |
 
