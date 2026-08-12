@@ -30,7 +30,7 @@
 
 Build a fully functional identity infrastructure for a simulated SME:
 
-- 🖥️ **Windows Server 2022** Domain Controller (DC01) hosting **AD DS**, **DNS** and **DHCP**.
+- 🖥️ **Windows Server 2019** Domain Controller (DC01) hosting **AD DS**, **DNS** and **DHCP**.
 - 🛡️ **RODC01** (Read-Only Domain Controller) in the user segment for branch-office style replication.
 - 🔥 **pfSense CE** firewall/router isolating the **server** and **user** segments.
 - 💻 Client workstations join the domain and apply GPOs in **< 90 seconds**.
