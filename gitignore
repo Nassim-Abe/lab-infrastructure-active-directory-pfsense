@@ -1,0 +1,40 @@
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# Secrets et fichiers locaux
+.env
+*.pem
+*.key
+*.pfx
+*.pwd
+secrets/
+
+# VMware / VirtualBox / exports lourds
+*.vmem
+*.vmsn
+*.vmss
+*.vswp
+*.nvram
+*.lck/
+*.vmdk
+*.vdi
+*.vhd
+*.vhdx
+*.ova
+*.ovf
+*.iso
+Virtual Machines/
+
+# Logs / exports temporaires
+*.log
+*.tmp
+*.bak
+*.dump
+
+# Captures brutes et données sensibles
+# Media/screenshots/  # décommenter si les captures ne doivent pas être versionnées
