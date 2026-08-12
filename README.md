@@ -27,7 +27,7 @@ Documentation reproductible d’un laboratoire PME simulé : **Windows Server 20
 - Centraliser l’authentification dans le domaine `entreprise.lab` (NetBIOS `ENTREPRISE`) avec `DC01`, contrôleur inscriptible hébergeant AD DS, DNS et DHCP.
 - Déployer `RODC01`, contrôleur en lecture seule dans le segment utilisateurs/filiale, avec réplication unidirectionnelle.
 - Isoler les serveurs (`SEG_SRV`) et les utilisateurs (`SEG_USR`) derrière pfSense.
-- Joindre `CLI01` à `CLI10` au domaine et appliquer la GPO **Corporate Wallpaper** avec une cible de moins de 90 secondes.
+- Joindre `CLI01` au domaine et appliquer la GPO **Corporate Wallpaper** avec une cible de moins de 90 secondes.
 - Vérifier la dépendance critique AD ↔ DNS, les enregistrements SRV, la réplication, la PRP et le mode dégradé.
 
 ## Architecture
