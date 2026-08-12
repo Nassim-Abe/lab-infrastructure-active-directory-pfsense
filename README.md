@@ -128,12 +128,9 @@ Get-ADDomainController -Identity RODC01 | Set-ADObject -Add @{
 .
 ├── README.md
 ├── Documentation_Lab_AD_RODC_pfSense.docx
-├── docs/
+├── Media/
 │   └── screenshots/
-├── scripts/
-│   ├── powershell/
-│   └── pfsense/
-└── diagrams/
+
 ```
 
 ## Conclusion
