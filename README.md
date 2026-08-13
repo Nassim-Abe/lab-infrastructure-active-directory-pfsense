@@ -83,7 +83,6 @@ Documentation reproductible d’un laboratoire PME simulé : **Windows Server 20
 ├── LICENSE
 ├── CONTRIBUTING.md
 ├── .gitignore
-├── GUIDE_PUBLICATION_GITHUB.md
 ├── docs/
 │   ├── 01-preparation-environnement.md
 │   ├── 02-installation-ad-ds.md
